@@ -591,6 +591,78 @@
           }
         ]
       }
+    },
+    "cherry": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cherry_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "bamboo": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "bamboo_mosaic": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo_mosaic_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "tuff_brick": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tuff_brick_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "polished_tuff": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_tuff_slab"
+            ]
+          }
+        ]
+      }
+    },
+    "resin_brick": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:resin_brick_slab"
+            ]
+          }
+        ]
+      }
     }
   }
 }

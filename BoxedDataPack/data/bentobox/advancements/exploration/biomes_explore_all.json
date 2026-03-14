@@ -847,6 +847,38 @@
           }
         ]
       }
+    },
+    "cherry_grove": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "predicate": {
+              "location": {
+                "biome": "cherry_grove"
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "pale_garden": {
+      "trigger": "location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_properties",
+            "predicate": {
+              "location": {
+                "biome": "pale_garden"
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
     }
   }
 }

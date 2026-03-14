@@ -19,7 +19,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "aqua_affinity"
+                "enchantment": "minecraft:aqua_affinity"
               }
             ]
           }
@@ -33,7 +33,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "bane_of_arthropods"
+                "enchantment": "minecraft:bane_of_arthropods"
               }
             ]
           }
@@ -47,7 +47,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "binding_curse"
+                "enchantment": "minecraft:binding_curse"
               }
             ]
           }
@@ -61,7 +61,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "blast_protection"
+                "enchantment": "minecraft:blast_protection"
               }
             ]
           }
@@ -75,7 +75,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "channeling"
+                "enchantment": "minecraft:channeling"
               }
             ]
           }
@@ -89,7 +89,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "depth_strider"
+                "enchantment": "minecraft:depth_strider"
               }
             ]
           }
@@ -103,7 +103,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "efficiency"
+                "enchantment": "minecraft:efficiency"
               }
             ]
           }
@@ -117,7 +117,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "feather_falling"
+                "enchantment": "minecraft:feather_falling"
               }
             ]
           }
@@ -131,7 +131,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "fire_aspect"
+                "enchantment": "minecraft:fire_aspect"
               }
             ]
           }
@@ -145,7 +145,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "fire_protection"
+                "enchantment": "minecraft:fire_protection"
               }
             ]
           }
@@ -159,7 +159,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "flame"
+                "enchantment": "minecraft:flame"
               }
             ]
           }
@@ -173,7 +173,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "fortune"
+                "enchantment": "minecraft:fortune"
               }
             ]
           }
@@ -187,7 +187,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "frost_walker"
+                "enchantment": "minecraft:frost_walker"
               }
             ]
           }
@@ -201,7 +201,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "impaling"
+                "enchantment": "minecraft:impaling"
               }
             ]
           }
@@ -215,7 +215,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "infinity"
+                "enchantment": "minecraft:infinity"
               }
             ]
           }
@@ -229,7 +229,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "knockback"
+                "enchantment": "minecraft:knockback"
               }
             ]
           }
@@ -243,7 +243,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "looting"
+                "enchantment": "minecraft:looting"
               }
             ]
           }
@@ -257,7 +257,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "loyalty"
+                "enchantment": "minecraft:loyalty"
               }
             ]
           }
@@ -271,7 +271,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "luck_of_the_sea"
+                "enchantment": "minecraft:luck_of_the_sea"
               }
             ]
           }
@@ -285,7 +285,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "lure"
+                "enchantment": "minecraft:lure"
               }
             ]
           }
@@ -299,7 +299,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "mending"
+                "enchantment": "minecraft:mending"
               }
             ]
           }
@@ -313,7 +313,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "multishot"
+                "enchantment": "minecraft:multishot"
               }
             ]
           }
@@ -327,7 +327,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "piercing"
+                "enchantment": "minecraft:piercing"
               }
             ]
           }
@@ -341,7 +341,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "power"
+                "enchantment": "minecraft:power"
               }
             ]
           }
@@ -355,7 +355,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "projectile_protection"
+                "enchantment": "minecraft:projectile_protection"
               }
             ]
           }
@@ -369,7 +369,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "protection"
+                "enchantment": "minecraft:protection"
               }
             ]
           }
@@ -383,7 +383,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "punch"
+                "enchantment": "minecraft:punch"
               }
             ]
           }
@@ -397,7 +397,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "quick_charge"
+                "enchantment": "minecraft:quick_charge"
               }
             ]
           }
@@ -411,7 +411,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "respiration"
+                "enchantment": "minecraft:respiration"
               }
             ]
           }
@@ -425,7 +425,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "riptide"
+                "enchantment": "minecraft:riptide"
               }
             ]
           }
@@ -439,7 +439,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "sharpness"
+                "enchantment": "minecraft:sharpness"
               }
             ]
           }
@@ -453,7 +453,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "silk_touch"
+                "enchantment": "minecraft:silk_touch"
               }
             ]
           }
@@ -467,7 +467,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "smite"
+                "enchantment": "minecraft:smite"
               }
             ]
           }
@@ -481,21 +481,21 @@
           {
             "enchantments": [
               {
-                "enchantment": "soul_speed"
+                "enchantment": "minecraft:soul_speed"
               }
             ]
           }
         ]
       }
     },
-    "sweeping": {
+    "sweeping_edge": {
       "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
             "enchantments": [
               {
-                "enchantment": "sweeping"
+                "enchantment": "minecraft:sweeping_edge"
               }
             ]
           }
@@ -509,7 +509,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "swift_sneak"
+                "enchantment": "minecraft:swift_sneak"
               }
             ]
           }
@@ -523,7 +523,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "thorns"
+                "enchantment": "minecraft:thorns"
               }
             ]
           }
@@ -537,7 +537,7 @@
           {
             "enchantments": [
               {
-                "enchantment": "unbreaking"
+                "enchantment": "minecraft:unbreaking"
               }
             ]
           }
@@ -551,7 +551,49 @@
           {
             "enchantments": [
               {
-                "enchantment": "vanishing_curse"
+                "enchantment": "minecraft:vanishing_curse"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "wind_burst": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:wind_burst"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "breach": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:breach"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "density": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:density"
               }
             ]
           }
@@ -565,7 +607,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "aqua_affinity"
+                "enchantment": "minecraft:aqua_affinity"
               }
             ]
           }
@@ -579,7 +621,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "bane_of_arthropods"
+                "enchantment": "minecraft:bane_of_arthropods"
               }
             ]
           }
@@ -593,7 +635,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "binding_curse"
+                "enchantment": "minecraft:binding_curse"
               }
             ]
           }
@@ -607,7 +649,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "blast_protection"
+                "enchantment": "minecraft:blast_protection"
               }
             ]
           }
@@ -621,7 +663,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "channeling"
+                "enchantment": "minecraft:channeling"
               }
             ]
           }
@@ -635,7 +677,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "depth_strider"
+                "enchantment": "minecraft:depth_strider"
               }
             ]
           }
@@ -649,7 +691,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "efficiency"
+                "enchantment": "minecraft:efficiency"
               }
             ]
           }
@@ -663,7 +705,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "feather_falling"
+                "enchantment": "minecraft:feather_falling"
               }
             ]
           }
@@ -677,7 +719,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "fire_aspect"
+                "enchantment": "minecraft:fire_aspect"
               }
             ]
           }
@@ -691,7 +733,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "fire_protection"
+                "enchantment": "minecraft:fire_protection"
               }
             ]
           }
@@ -705,7 +747,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "flame"
+                "enchantment": "minecraft:flame"
               }
             ]
           }
@@ -719,7 +761,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "fortune"
+                "enchantment": "minecraft:fortune"
               }
             ]
           }
@@ -733,7 +775,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "frost_walker"
+                "enchantment": "minecraft:frost_walker"
               }
             ]
           }
@@ -747,7 +789,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "impaling"
+                "enchantment": "minecraft:impaling"
               }
             ]
           }
@@ -761,7 +803,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "infinity"
+                "enchantment": "minecraft:infinity"
               }
             ]
           }
@@ -775,7 +817,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "knockback"
+                "enchantment": "minecraft:knockback"
               }
             ]
           }
@@ -789,7 +831,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "looting"
+                "enchantment": "minecraft:looting"
               }
             ]
           }
@@ -803,7 +845,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "loyalty"
+                "enchantment": "minecraft:loyalty"
               }
             ]
           }
@@ -817,7 +859,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "luck_of_the_sea"
+                "enchantment": "minecraft:luck_of_the_sea"
               }
             ]
           }
@@ -831,7 +873,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "lure"
+                "enchantment": "minecraft:lure"
               }
             ]
           }
@@ -845,7 +887,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "mending"
+                "enchantment": "minecraft:mending"
               }
             ]
           }
@@ -859,7 +901,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "multishot"
+                "enchantment": "minecraft:multishot"
               }
             ]
           }
@@ -873,7 +915,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "piercing"
+                "enchantment": "minecraft:piercing"
               }
             ]
           }
@@ -887,7 +929,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "power"
+                "enchantment": "minecraft:power"
               }
             ]
           }
@@ -901,7 +943,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "projectile_protection"
+                "enchantment": "minecraft:projectile_protection"
               }
             ]
           }
@@ -915,7 +957,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "protection"
+                "enchantment": "minecraft:protection"
               }
             ]
           }
@@ -929,7 +971,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "punch"
+                "enchantment": "minecraft:punch"
               }
             ]
           }
@@ -943,7 +985,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "quick_charge"
+                "enchantment": "minecraft:quick_charge"
               }
             ]
           }
@@ -957,7 +999,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "respiration"
+                "enchantment": "minecraft:respiration"
               }
             ]
           }
@@ -971,7 +1013,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "riptide"
+                "enchantment": "minecraft:riptide"
               }
             ]
           }
@@ -985,7 +1027,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "sharpness"
+                "enchantment": "minecraft:sharpness"
               }
             ]
           }
@@ -999,7 +1041,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "silk_touch"
+                "enchantment": "minecraft:silk_touch"
               }
             ]
           }
@@ -1013,7 +1055,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "smite"
+                "enchantment": "minecraft:smite"
               }
             ]
           }
@@ -1027,21 +1069,21 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "soul_speed"
+                "enchantment": "minecraft:soul_speed"
               }
             ]
           }
         ]
       }
     },
-    "sweeping_book": {
+    "sweeping_edge_book": {
       "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
             "stored_enchantments": [
               {
-                "enchantment": "sweeping"
+                "enchantment": "minecraft:sweeping_edge"
               }
             ]
           }
@@ -1055,7 +1097,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "swift_sneak"
+                "enchantment": "minecraft:swift_sneak"
               }
             ]
           }
@@ -1069,7 +1111,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "thorns"
+                "enchantment": "minecraft:thorns"
               }
             ]
           }
@@ -1083,7 +1125,7 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "unbreaking"
+                "enchantment": "minecraft:unbreaking"
               }
             ]
           }
@@ -1097,7 +1139,49 @@
           {
             "stored_enchantments": [
               {
-                "enchantment": "vanishing_curse"
+                "enchantment": "minecraft:vanishing_curse"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "wind_burst_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "minecraft:wind_burst"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "breach_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "minecraft:breach"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "density_book": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "minecraft:density"
               }
             ]
           }
@@ -1243,8 +1327,8 @@
       "soul_speed_book"
     ],
     [
-      "sweeping",
-      "sweeping_book"
+      "sweeping_edge",
+      "sweeping_edge_book"
     ],
     [
       "swift_sneak",
@@ -1261,6 +1345,18 @@
     [
       "vanishing_curse",
       "vanishing_curse_book"
+    ],
+    [
+      "wind_burst",
+      "wind_burst_book"
+    ],
+    [
+      "breach",
+      "breach_book"
+    ],
+    [
+      "density",
+      "density_book"
     ]
   ]
 }
