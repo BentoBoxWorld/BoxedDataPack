@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "trident",
-      "nbt": "{Enchantments:[{id:'lure'}]}"
+      "components": {"minecraft:enchantments": {"minecraft:lure": 1}}
     },
     "title": "Poseidon's Fury",
     "description": "Create a perfect trident",
@@ -23,23 +23,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "loyalty",
+                "enchantment": "minecraft:loyalty",
                 "levels": 3
               },
               {
-                "enchantment": "impaling",
+                "enchantment": "minecraft:impaling",
                 "levels": 5
               },
               {
-                "enchantment": "channeling",
+                "enchantment": "minecraft:channeling",
                 "levels": 1
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -57,19 +57,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "riptide",
+                "enchantment": "minecraft:riptide",
                 "levels": 3
               },
               {
-                "enchantment": "impaling",
+                "enchantment": "minecraft:impaling",
                 "levels": 5
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]

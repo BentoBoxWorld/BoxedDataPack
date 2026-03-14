@@ -1,7 +1,7 @@
 {
   "values": [
-    "ice",
-    "packed_ice",
-    "blue_ice"
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice"
   ]
 }

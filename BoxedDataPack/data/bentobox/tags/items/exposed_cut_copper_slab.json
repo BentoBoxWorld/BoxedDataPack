@@ -1,6 +1,6 @@
 {
   "values": [
-    "exposed_cut_copper_slab",
-    "waxed_exposed_cut_copper_slab"
+    "minecraft:exposed_cut_copper_slab",
+    "minecraft:waxed_exposed_cut_copper_slab"
   ]
 }

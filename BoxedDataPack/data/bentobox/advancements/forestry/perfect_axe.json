@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "netherite_axe",
-      "nbt": "{Enchantments:[{id:'lure'}]}"
+      "components": {"minecraft:enchantments": {"minecraft:lure": 1}}
     },
     "title": "Master Lumberjack",
     "description": "Create a perfect axe",
@@ -23,23 +23,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "efficiency",
+                "enchantment": "minecraft:efficiency",
                 "levels": 5
               },
               {
-                "enchantment": "fortune",
+                "enchantment": "minecraft:fortune",
                 "levels": 3
               },
               {
-                "enchantment": "sharpness",
+                "enchantment": "minecraft:sharpness",
                 "levels": 5
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -57,23 +57,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "efficiency",
+                "enchantment": "minecraft:efficiency",
                 "levels": 5
               },
               {
-                "enchantment": "silk_touch",
+                "enchantment": "minecraft:silk_touch",
                 "levels": 1
               },
               {
-                "enchantment": "sharpness",
+                "enchantment": "minecraft:sharpness",
                 "levels": 5
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -91,23 +91,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "efficiency",
+                "enchantment": "minecraft:efficiency",
                 "levels": 5
               },
               {
-                "enchantment": "fortune",
+                "enchantment": "minecraft:fortune",
                 "levels": 3
               },
               {
-                "enchantment": "smite",
+                "enchantment": "minecraft:smite",
                 "levels": 5
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -125,23 +125,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "efficiency",
+                "enchantment": "minecraft:efficiency",
                 "levels": 5
               },
               {
-                "enchantment": "silk_touch",
+                "enchantment": "minecraft:silk_touch",
                 "levels": 1
               },
               {
-                "enchantment": "smite",
+                "enchantment": "minecraft:smite",
                 "levels": 5
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -159,23 +159,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "efficiency",
+                "enchantment": "minecraft:efficiency",
                 "levels": 5
               },
               {
-                "enchantment": "fortune",
+                "enchantment": "minecraft:fortune",
                 "levels": 3
               },
               {
-                "enchantment": "bane_of_arthropods",
+                "enchantment": "minecraft:bane_of_arthropods",
                 "levels": 5
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -193,23 +193,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "efficiency",
+                "enchantment": "minecraft:efficiency",
                 "levels": 5
               },
               {
-                "enchantment": "silk_touch",
+                "enchantment": "minecraft:silk_touch",
                 "levels": 1
               },
               {
-                "enchantment": "bane_of_arthropods",
+                "enchantment": "minecraft:bane_of_arthropods",
                 "levels": 5
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]

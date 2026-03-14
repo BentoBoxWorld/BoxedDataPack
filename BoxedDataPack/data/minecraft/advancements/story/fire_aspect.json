@@ -19,7 +19,7 @@
             ],
             "enchantments": [
               {
-                "enchantment": "fire_aspect",
+                "enchantment": "minecraft:fire_aspect",
                 "levels": 2
               }
             ]

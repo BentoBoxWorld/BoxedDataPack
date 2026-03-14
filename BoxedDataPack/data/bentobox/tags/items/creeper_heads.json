@@ -1,7 +1,7 @@
 {
   "values": [
-    "skeleton_skull",
-    "zombie_head",
-    "creeper_head"
+    "minecraft:skeleton_skull",
+    "minecraft:zombie_head",
+    "minecraft:creeper_head"
   ]
 }

@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "bow",
-      "nbt": "{Enchantments:[{id:'lure'}]}"
+      "components": {"minecraft:enchantments": {"minecraft:lure": 1}}
     },
     "title": "Master Sniper",
     "description": "Create a perfect bow",
@@ -23,23 +23,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "power",
+                "enchantment": "minecraft:power",
                 "levels": 5
               },
               {
-                "enchantment": "punch",
+                "enchantment": "minecraft:punch",
                 "levels": 2
               },
               {
-                "enchantment": "flame",
+                "enchantment": "minecraft:flame",
                 "levels": 1
               },
               {
-                "enchantment": "infinity",
+                "enchantment": "minecraft:infinity",
                 "levels": 1
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               }
             ]
@@ -57,23 +57,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "power",
+                "enchantment": "minecraft:power",
                 "levels": 5
               },
               {
-                "enchantment": "punch",
+                "enchantment": "minecraft:punch",
                 "levels": 2
               },
               {
-                "enchantment": "flame",
+                "enchantment": "minecraft:flame",
                 "levels": 1
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               }
             ]

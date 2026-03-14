@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "golden_boots",
-      "nbt": "{Enchantments:[{id:'lure'}]}"
+      "components": {"minecraft:enchantments": {"minecraft:lure": 1}}
     },
     "title": "Soul Assistance",
     "description": "Wear down your soles with Soul Speed",
@@ -24,7 +24,7 @@
               "tag": "bentobox:boots",
               "enchantments": [
                 {
-                  "enchantment": "soul_speed"
+                  "enchantment": "minecraft:soul_speed"
                 }
               ]
             }

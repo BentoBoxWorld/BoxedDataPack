@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crafter"
+    },
+    "title": "Auto-Crafter",
+    "description": "Place a crafter",
+    "announce_to_chat": false
+  },
+  "parent": "bentobox:building/root",
+  "criteria": {
+    "crafter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crafter"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

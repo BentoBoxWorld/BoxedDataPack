@@ -1,9 +1,9 @@
 {
   "values": [
     "#bentobox:animals",
-    "hoglin",
-    "iron_golem",
-    "snow_golem",
-    "zoglin"
+    "minecraft:hoglin",
+    "minecraft:iron_golem",
+    "minecraft:snow_golem",
+    "minecraft:zoglin"
   ]
 }

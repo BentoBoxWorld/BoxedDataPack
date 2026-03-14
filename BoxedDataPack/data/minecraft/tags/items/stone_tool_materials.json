@@ -1,9 +1,9 @@
 {
   "values": [
-    "granite",
-    "andesite",
-    "diorite",
-    "tuff",
-    "calcite"
+    "minecraft:granite",
+    "minecraft:andesite",
+    "minecraft:diorite",
+    "minecraft:tuff",
+    "minecraft:calcite"
   ]
 }

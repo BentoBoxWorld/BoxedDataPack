@@ -1,6 +1,6 @@
 {
   "values": [
-    "boat",
-    "chest_boat"
+    "minecraft:boat",
+    "minecraft:chest_boat"
   ]
 }

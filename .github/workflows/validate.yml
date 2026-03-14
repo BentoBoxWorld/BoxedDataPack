@@ -6,13 +6,14 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: setup go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
-          go-version: "1.20"
+          go-version: "1.22"
           cache: false # only caches go projects, not general go pkgs
+
       - name: get go cache env
         id: go-cache-env
         run: |
@@ -25,7 +26,7 @@ jobs:
           echo "$EOF" >> $GITHUB_ENV
 
       - name: cache go
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ${{env.GOMODCACHE}}
@@ -35,44 +36,46 @@ jobs:
       - name: install yajsv
         run: go install github.com/neilpa/yajsv@v1.4.1
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
+
+      - name: get cache week
+        id: week
+        run: echo "value=$(date +%Y-%U)" >> $GITHUB_OUTPUT
 
       - name: cache schemas
-        uses: actions/cache@v3
+        id: cache-schemas
+        uses: actions/cache@v4
         with:
-          path: | 
-            schemas/
-          key: ${{ runner.os }}-schemas
+          path: schemas/
+          key: ${{ runner.os }}-schemas-${{ steps.week.outputs.value }}
 
-      - name: fetch Schemas
+      - name: fetch schemas
+        if: steps.cache-schemas.outputs.cache-hit != 'true'
         run: |
-          curl -o schemas/advancement.json https://json.schemastore.org/minecraft-advancement.json
-          curl -o schemas/tag.json https://json.schemastore.org/minecraft-tag.json
-          curl -o schemas/recipe.json https://json.schemastore.org/minecraft-recipe.json
-          # Disabled due to older version. downloaded and edited manually
-          #curl -o schemas/pack-mcmeta.json https://json.schemastore.org/minecraft-pack-mcmeta.json
-          
+          curl -fsSL -o schemas/advancement.json https://json.schemastore.org/minecraft-advancement.json
+          curl -fsSL -o schemas/tag.json https://json.schemastore.org/minecraft-tag.json
+          curl -fsSL -o schemas/recipe.json https://json.schemastore.org/minecraft-recipe.json
+          # pack-mcmeta.json is maintained locally (schemastore version is outdated)
 
       - name: Verify pack.mcmeta
-        run: |
-          yajsv -s schemas/pack-mcmeta.json -q "BoxedDataPack/pack.mcmeta"
+        run: yajsv -s schemas/pack-mcmeta.json -q "BoxedDataPack/pack.mcmeta"
 
       - name: Verify Advancements
         run: |
-          python -c 'from glob import glob;globfile = open("globs.txt", "w");globfile.writelines(filename + "\n" for filename in glob("BoxedDataPack/data/*/advancements/**/*.json", recursive=True));globfile.close()'
+          python3 -c 'from glob import glob;open("globs.txt","w").writelines(f+"\n" for f in glob("BoxedDataPack/data/*/advancements/**/*.json",recursive=True))'
           yajsv -s schemas/advancement.json -q -l globs.txt
           rm globs.txt
 
       - name: Verify Tags
         run: |
-          python -c 'from glob import glob;globfile = open("globs.txt", "w");globfile.writelines(filename + "\n" for filename in glob("BoxedDataPack/data/*/tags/**/*.json", recursive=True));globfile.close()'
+          python3 -c 'from glob import glob;open("globs.txt","w").writelines(f+"\n" for f in glob("BoxedDataPack/data/*/tags/**/*.json",recursive=True))'
           yajsv -s schemas/tag.json -q -l globs.txt
           rm globs.txt
 
       - name: Verify Recipes
         run: |
-          python -c 'from glob import glob;globfile = open("globs.txt", "w");globfile.writelines(filename + "\n" for filename in glob("BoxedDataPack/data/*/recipes/**/*.json", recursive=True));globfile.close()'
+          python3 -c 'from glob import glob;open("globs.txt","w").writelines(f+"\n" for f in glob("BoxedDataPack/data/*/recipes/**/*.json",recursive=True))'
           yajsv -s schemas/recipe.json -q -l globs.txt
           rm globs.txt

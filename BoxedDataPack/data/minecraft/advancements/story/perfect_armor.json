@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "netherite_helmet",
-      "nbt": "{Enchantments:[{id:'lure'}]}"
+      "components": {"minecraft:enchantments": {"minecraft:lure": 1}}
     },
     "title": "Master Armorer",
     "description": "Create a perfect suit of armor",
@@ -23,23 +23,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "aqua_affinity",
+                "enchantment": "minecraft:aqua_affinity",
                 "levels": 1
               },
               {
-                "enchantment": "protection",
+                "enchantment": "minecraft:protection",
                 "levels": 4
               },
               {
-                "enchantment": "respiration",
+                "enchantment": "minecraft:respiration",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -57,23 +57,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "aqua_affinity",
+                "enchantment": "minecraft:aqua_affinity",
                 "levels": 1
               },
               {
-                "enchantment": "projectile_protection",
+                "enchantment": "minecraft:projectile_protection",
                 "levels": 4
               },
               {
-                "enchantment": "respiration",
+                "enchantment": "minecraft:respiration",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -91,23 +91,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "aqua_affinity",
+                "enchantment": "minecraft:aqua_affinity",
                 "levels": 1
               },
               {
-                "enchantment": "blast_protection",
+                "enchantment": "minecraft:blast_protection",
                 "levels": 4
               },
               {
-                "enchantment": "respiration",
+                "enchantment": "minecraft:respiration",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -125,23 +125,23 @@
             ],
             "enchantments": [
               {
-                "enchantment": "aqua_affinity",
+                "enchantment": "minecraft:aqua_affinity",
                 "levels": 1
               },
               {
-                "enchantment": "fire_protection",
+                "enchantment": "minecraft:fire_protection",
                 "levels": 4
               },
               {
-                "enchantment": "respiration",
+                "enchantment": "minecraft:respiration",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -159,19 +159,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "protection",
+                "enchantment": "minecraft:protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "thorns",
+                "enchantment": "minecraft:thorns",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -189,19 +189,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "projectile_protection",
+                "enchantment": "minecraft:projectile_protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "thorns",
+                "enchantment": "minecraft:thorns",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -219,19 +219,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "blast_protection",
+                "enchantment": "minecraft:blast_protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "thorns",
+                "enchantment": "minecraft:thorns",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -249,19 +249,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "fire_protection",
+                "enchantment": "minecraft:fire_protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "thorns",
+                "enchantment": "minecraft:thorns",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -279,19 +279,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "protection",
+                "enchantment": "minecraft:protection",
                 "levels": 4
               },
               {
-                "enchantment": "swift_sneak",
+                "enchantment": "minecraft:swift_sneak",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -309,19 +309,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "projectile_protection",
+                "enchantment": "minecraft:projectile_protection",
                 "levels": 4
               },
               {
-                "enchantment": "swift_sneak",
+                "enchantment": "minecraft:swift_sneak",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -339,19 +339,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "blast_protection",
+                "enchantment": "minecraft:blast_protection",
                 "levels": 4
               },
               {
-                "enchantment": "swift_sneak",
+                "enchantment": "minecraft:swift_sneak",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -369,19 +369,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "fire_protection",
+                "enchantment": "minecraft:fire_protection",
                 "levels": 4
               },
               {
-                "enchantment": "swift_sneak",
+                "enchantment": "minecraft:swift_sneak",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -399,27 +399,27 @@
             ],
             "enchantments": [
               {
-                "enchantment": "protection",
+                "enchantment": "minecraft:protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "depth_strider",
+                "enchantment": "minecraft:depth_strider",
                 "levels": 3
               },
               {
-                "enchantment": "feather_falling",
+                "enchantment": "minecraft:feather_falling",
                 "levels": 4
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               },
               {
-                "enchantment": "soul_speed",
+                "enchantment": "minecraft:soul_speed",
                 "levels": 3
               }
             ]
@@ -437,27 +437,27 @@
             ],
             "enchantments": [
               {
-                "enchantment": "projectile_protection",
+                "enchantment": "minecraft:projectile_protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "depth_strider",
+                "enchantment": "minecraft:depth_strider",
                 "levels": 3
               },
               {
-                "enchantment": "feather_falling",
+                "enchantment": "minecraft:feather_falling",
                 "levels": 4
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               },
               {
-                "enchantment": "soul_speed",
+                "enchantment": "minecraft:soul_speed",
                 "levels": 3
               }
             ]
@@ -475,27 +475,27 @@
             ],
             "enchantments": [
               {
-                "enchantment": "blast_protection",
+                "enchantment": "minecraft:blast_protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "depth_strider",
+                "enchantment": "minecraft:depth_strider",
                 "levels": 3
               },
               {
-                "enchantment": "feather_falling",
+                "enchantment": "minecraft:feather_falling",
                 "levels": 4
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               },
               {
-                "enchantment": "soul_speed",
+                "enchantment": "minecraft:soul_speed",
                 "levels": 3
               }
             ]
@@ -513,27 +513,27 @@
             ],
             "enchantments": [
               {
-                "enchantment": "fire_protection",
+                "enchantment": "minecraft:fire_protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "depth_strider",
+                "enchantment": "minecraft:depth_strider",
                 "levels": 3
               },
               {
-                "enchantment": "feather_falling",
+                "enchantment": "minecraft:feather_falling",
                 "levels": 4
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               },
               {
-                "enchantment": "soul_speed",
+                "enchantment": "minecraft:soul_speed",
                 "levels": 3
               }
             ]
@@ -551,27 +551,27 @@
             ],
             "enchantments": [
               {
-                "enchantment": "protection",
+                "enchantment": "minecraft:protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "frost_walker",
+                "enchantment": "minecraft:frost_walker",
                 "levels": 2
               },
               {
-                "enchantment": "feather_falling",
+                "enchantment": "minecraft:feather_falling",
                 "levels": 4
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               },
               {
-                "enchantment": "soul_speed",
+                "enchantment": "minecraft:soul_speed",
                 "levels": 3
               }
             ]
@@ -589,27 +589,27 @@
             ],
             "enchantments": [
               {
-                "enchantment": "projectile_protection",
+                "enchantment": "minecraft:projectile_protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "frost_walker",
+                "enchantment": "minecraft:frost_walker",
                 "levels": 2
               },
               {
-                "enchantment": "feather_falling",
+                "enchantment": "minecraft:feather_falling",
                 "levels": 4
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               },
               {
-                "enchantment": "soul_speed",
+                "enchantment": "minecraft:soul_speed",
                 "levels": 3
               }
             ]
@@ -627,27 +627,27 @@
             ],
             "enchantments": [
               {
-                "enchantment": "blast_protection",
+                "enchantment": "minecraft:blast_protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "frost_walker",
+                "enchantment": "minecraft:frost_walker",
                 "levels": 2
               },
               {
-                "enchantment": "feather_falling",
+                "enchantment": "minecraft:feather_falling",
                 "levels": 4
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               },
               {
-                "enchantment": "soul_speed",
+                "enchantment": "minecraft:soul_speed",
                 "levels": 3
               }
             ]
@@ -665,27 +665,27 @@
             ],
             "enchantments": [
               {
-                "enchantment": "fire_protection",
+                "enchantment": "minecraft:fire_protection",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "frost_walker",
+                "enchantment": "minecraft:frost_walker",
                 "levels": 2
               },
               {
-                "enchantment": "feather_falling",
+                "enchantment": "minecraft:feather_falling",
                 "levels": 4
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               },
               {
-                "enchantment": "soul_speed",
+                "enchantment": "minecraft:soul_speed",
                 "levels": 3
               }
             ]

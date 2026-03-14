@@ -1,7 +1,7 @@
 {
   "values": [
-    "iron_ingot",
-    "iron_nugget",
-    "chain"
+    "minecraft:iron_ingot",
+    "minecraft:iron_nugget",
+    "minecraft:chain"
   ]
 }

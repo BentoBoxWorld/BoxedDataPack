@@ -1,8 +1,8 @@
 {
   "values": [
-    "wheat_seeds",
-    "pumpkin_seeds",
-    "melon_seeds",
-    "beetroot_seeds"
+    "minecraft:wheat_seeds",
+    "minecraft:pumpkin_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:beetroot_seeds"
   ]
 }

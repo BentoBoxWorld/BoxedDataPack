@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:armadillo_scute"
+    },
+    "title": "Armadillo!",
+    "description": "Collect an armadillo scute",
+    "announce_to_chat": false
+  },
+  "parent": "bentobox:livestock/root",
+  "criteria": {
+    "armadillo_scute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:armadillo_scute"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

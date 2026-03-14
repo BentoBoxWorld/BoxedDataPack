@@ -1,7 +1,7 @@
 {
   "values": [
-    "chest",
-    "trapped_chest",
-    "barrel"
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:barrel"
   ]
 }

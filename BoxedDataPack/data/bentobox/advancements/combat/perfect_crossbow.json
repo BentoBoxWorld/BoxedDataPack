@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "crossbow",
-      "nbt": "{Enchantments:[{id:'lure'}]}"
+      "components": {"minecraft:enchantments": {"minecraft:lure": 1}}
     },
     "title": "Deadeye",
     "description": "Create a perfect crossbow",
@@ -23,19 +23,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "quick_charge",
+                "enchantment": "minecraft:quick_charge",
                 "levels": 3
               },
               {
-                "enchantment": "piercing",
+                "enchantment": "minecraft:piercing",
                 "levels": 4
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -53,19 +53,19 @@
             ],
             "enchantments": [
               {
-                "enchantment": "quick_charge",
+                "enchantment": "minecraft:quick_charge",
                 "levels": 3
               },
               {
-                "enchantment": "multishot",
+                "enchantment": "minecraft:multishot",
                 "levels": 1
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]

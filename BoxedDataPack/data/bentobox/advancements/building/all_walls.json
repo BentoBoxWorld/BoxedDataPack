@@ -272,6 +272,54 @@
           }
         ]
       }
+    },
+    "tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tuff_wall"
+            ]
+          }
+        ]
+      }
+    },
+    "polished_tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:polished_tuff_wall"
+            ]
+          }
+        ]
+      }
+    },
+    "tuff_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tuff_brick_wall"
+            ]
+          }
+        ]
+      }
+    },
+    "resin_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:resin_brick_wall"
+            ]
+          }
+        ]
+      }
     }
   },
   "rewards": {

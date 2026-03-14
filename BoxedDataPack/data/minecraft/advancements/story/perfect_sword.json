@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "netherite_sword",
-      "nbt": "{Enchantments:[{id:'lure'}]}"
+      "components": {"minecraft:enchantments": {"minecraft:lure": 1}}
     },
     "title": "Master Knight",
     "description": "Create a perfect sword",
@@ -23,31 +23,31 @@
             ],
             "enchantments": [
               {
-                "enchantment": "sharpness",
+                "enchantment": "minecraft:sharpness",
                 "levels": 5
               },
               {
-                "enchantment": "knockback",
+                "enchantment": "minecraft:knockback",
                 "levels": 2
               },
               {
-                "enchantment": "fire_aspect",
+                "enchantment": "minecraft:fire_aspect",
                 "levels": 2
               },
               {
-                "enchantment": "looting",
+                "enchantment": "minecraft:looting",
                 "levels": 3
               },
               {
-                "enchantment": "sweeping",
+                "enchantment": "minecraft:sweeping_edge",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -65,31 +65,31 @@
             ],
             "enchantments": [
               {
-                "enchantment": "smite",
+                "enchantment": "minecraft:smite",
                 "levels": 5
               },
               {
-                "enchantment": "knockback",
+                "enchantment": "minecraft:knockback",
                 "levels": 2
               },
               {
-                "enchantment": "fire_aspect",
+                "enchantment": "minecraft:fire_aspect",
                 "levels": 2
               },
               {
-                "enchantment": "looting",
+                "enchantment": "minecraft:looting",
                 "levels": 3
               },
               {
-                "enchantment": "sweeping",
+                "enchantment": "minecraft:sweeping_edge",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]
@@ -107,31 +107,31 @@
             ],
             "enchantments": [
               {
-                "enchantment": "bane_of_arthropods",
+                "enchantment": "minecraft:bane_of_arthropods",
                 "levels": 5
               },
               {
-                "enchantment": "knockback",
+                "enchantment": "minecraft:knockback",
                 "levels": 2
               },
               {
-                "enchantment": "fire_aspect",
+                "enchantment": "minecraft:fire_aspect",
                 "levels": 2
               },
               {
-                "enchantment": "looting",
+                "enchantment": "minecraft:looting",
                 "levels": 3
               },
               {
-                "enchantment": "sweeping",
+                "enchantment": "minecraft:sweeping_edge",
                 "levels": 3
               },
               {
-                "enchantment": "unbreaking",
+                "enchantment": "minecraft:unbreaking",
                 "levels": 3
               },
               {
-                "enchantment": "mending",
+                "enchantment": "minecraft:mending",
                 "levels": 1
               }
             ]

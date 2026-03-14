@@ -1,9 +1,9 @@
 {
   "values": [
-    "tube_coral",
-    "brain_coral",
-    "bubble_coral",
-    "fire_coral",
-    "horn_coral"
+    "minecraft:tube_coral",
+    "minecraft:brain_coral",
+    "minecraft:bubble_coral",
+    "minecraft:fire_coral",
+    "minecraft:horn_coral"
   ]
 }
