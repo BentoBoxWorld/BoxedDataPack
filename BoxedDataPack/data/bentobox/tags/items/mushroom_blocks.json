@@ -1,7 +1,7 @@
 {
   "values": [
-    "brown_mushroom_block",
-    "red_mushroom_block",
-    "mushroom_stem"
+    "minecraft:brown_mushroom_block",
+    "minecraft:red_mushroom_block",
+    "minecraft:mushroom_stem"
   ]
 }

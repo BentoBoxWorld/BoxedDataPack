@@ -1,15 +1,15 @@
 {
   "values": [
-    "golden_pickaxe",
-    "golden_shovel",
-    "golden_axe",
-    "golden_hoe",
-    "golden_sword",
-    "golden_helmet",
-    "golden_chestplate",
-    "golden_leggings",
-    "golden_boots",
-    "golden_horse_armor",
-    "light_weighted_pressure_plate"
+    "minecraft:golden_pickaxe",
+    "minecraft:golden_shovel",
+    "minecraft:golden_axe",
+    "minecraft:golden_hoe",
+    "minecraft:golden_sword",
+    "minecraft:golden_helmet",
+    "minecraft:golden_chestplate",
+    "minecraft:golden_leggings",
+    "minecraft:golden_boots",
+    "minecraft:golden_horse_armor",
+    "minecraft:light_weighted_pressure_plate"
   ]
 }
