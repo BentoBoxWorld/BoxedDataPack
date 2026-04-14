@@ -1,4 +1,4 @@
 # BoxedDataPack
 Advancement Datapack for Boxed Addon
 
-The datapack is the zip file in this repo and should be placed with other datapacks in the main world folder.
+Download the latest `BoxedDataPack.zip` from the [Releases page](../../releases/latest) and place it in your world's `datapacks/` folder.
