@@ -21,3 +21,14 @@ jobs:
         with:
           files: BoxedDataPack.zip
           generate_release_notes: true
+          body: |
+            ## Download
+
+            Click the **BoxedDataPack.zip** link in the **Assets** section below to download the data pack.
+
+            ## Installation
+
+            1. Locate your Minecraft server's main world folder (usually named `world/`).
+            2. Place `BoxedDataPack.zip` inside the `world/datapacks/` folder (create it if it doesn't exist).
+            3. Restart the server, or run `/reload` if the server is already running.
+            4. Confirm the data pack loaded successfully with `/datapack list`.
