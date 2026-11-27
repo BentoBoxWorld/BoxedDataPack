@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nether_bricks",
+  "pattern": [
+    "NN",
+    "NN"
+  ],
+  "key": {
+    "N": "minecraft:nether_brick"
+  },
+  "result": {
+    "id": "minecraft:nether_bricks"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:end/find_end_city",
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "advancements.end.elytra.title"
+    },
+    "description": "Find an elytra",
+    "frame": "goal"
+  },
+  "criteria": {
+    "elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:elytra"
+          }
+        ]
+      }
+    }
+  }
+}

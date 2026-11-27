@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:nether/ice",
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": {
+      "translate": "advancements.nether.fast_travel.title"
+    },
+    "description": {
+      "translate": "advancements.nether.fast_travel.description"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "7000": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 7000
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

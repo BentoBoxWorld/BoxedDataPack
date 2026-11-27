@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": "minecraft:orange_wool",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:orange_banner",
+    "count": 3
+  }
+}

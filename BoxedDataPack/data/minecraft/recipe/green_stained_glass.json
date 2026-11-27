@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_glass",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": "#bentobox:dyeable_glasses",
+    "X": "minecraft:green_dye"
+  },
+  "result": {
+    "id": "minecraft:green_stained_glass",
+    "count": 8
+  }
+}

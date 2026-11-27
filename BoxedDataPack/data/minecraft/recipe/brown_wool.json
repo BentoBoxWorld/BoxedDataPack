@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "wool",
+  "ingredients": [
+    "minecraft:brown_dye",
+    "#minecraft:wool"
+  ],
+  "result": {
+    "id": "minecraft:brown_wool"
+  }
+}

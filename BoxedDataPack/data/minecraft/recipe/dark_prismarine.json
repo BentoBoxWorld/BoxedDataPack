@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dark_prismarine",
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:prismarine_shard",
+    "I": "#bentobox:black_dyes"
+  },
+  "result": {
+    "id": "minecraft:dark_prismarine"
+  }
+}

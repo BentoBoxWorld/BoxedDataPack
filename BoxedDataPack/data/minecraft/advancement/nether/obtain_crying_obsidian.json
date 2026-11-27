@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:nether/distract_piglin",
+  "display": {
+    "icon": {
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": "Who's Cutting Onions?",
+    "description": "Barter with a piglin for crying obsidian",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "crying_obsidian": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin"
+          }
+        },
+        "item": {
+          "items": "minecraft:crying_obsidian"
+        }
+      }
+    }
+  }
+}

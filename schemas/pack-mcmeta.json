@@ -28,6 +28,18 @@
 
         },
 
+        "min_format": {
+          "description": "The lowest data pack format this pack works with. Minecraft 26.3 is 121.",
+          "type": ["integer", "array"],
+          "minimum": 82
+        },
+
+        "max_format": {
+          "description": "The highest data pack format this pack works with. Minecraft 26.3 is 121.",
+          "type": ["integer", "array"],
+          "minimum": 82
+        },
+
         "pack_format": {
 
           "description": "A version for the current pack\nhttps://minecraft.fandom.com/wiki/Data_pack#Contents",

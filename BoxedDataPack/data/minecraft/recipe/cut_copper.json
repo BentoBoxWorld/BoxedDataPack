@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "cut_copper",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "minecraft:copper_block"
+  },
+  "result": {
+    "id": "minecraft:cut_copper",
+    "count": 4
+  }
+}
