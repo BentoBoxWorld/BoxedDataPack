@@ -56,7 +56,6 @@ jobs:
         run: |
           curl -fsSL -o schemas/advancement.json https://json.schemastore.org/minecraft-advancement.json
           curl -fsSL -o schemas/tag.json https://json.schemastore.org/minecraft-tag.json
-          curl -fsSL -o schemas/recipe.json https://json.schemastore.org/minecraft-recipe.json
           # pack-mcmeta.json is maintained locally (schemastore version is outdated)
 
       - name: Verify pack.mcmeta
@@ -64,7 +63,7 @@ jobs:
 
       - name: Verify Advancements
         run: |
-          python3 -c 'from glob import glob;open("globs.txt","w").writelines(f+"\n" for f in glob("BoxedDataPack/data/*/advancements/**/*.json",recursive=True))'
+          python3 -c 'from glob import glob;open("globs.txt","w").writelines(f+"\n" for f in glob("BoxedDataPack/data/*/advancement/**/*.json",recursive=True))'
           yajsv -s schemas/advancement.json -q -l globs.txt
           rm globs.txt
 
@@ -74,8 +73,34 @@ jobs:
           yajsv -s schemas/tag.json -q -l globs.txt
           rm globs.txt
 
+      # The schemastore recipe schema is older than Minecraft 1.21.2, when ingredients became
+      # plain strings, so it rejects every current recipe. Until it catches up, recipes are
+      # only checked for being JSON with a type and a result. Loading the pack on a server is
+      # the real test.
       - name: Verify Recipes
         run: |
-          python3 -c 'from glob import glob;open("globs.txt","w").writelines(f+"\n" for f in glob("BoxedDataPack/data/*/recipes/**/*.json",recursive=True))'
-          yajsv -s schemas/recipe.json -q -l globs.txt
-          rm globs.txt
+          python3 - <<'PY'
+          import json, sys
+          from glob import glob
+          bad = []
+          files = glob("BoxedDataPack/data/*/recipe/**/*.json", recursive=True)
+          for f in files:
+              try:
+                  j = json.load(open(f))
+              except ValueError as e:
+                  bad.append(f"{f}: {e}")
+                  continue
+              if "type" not in j or "result" not in j:
+                  bad.append(f"{f}: needs a type and a result")
+          print(f"{len(files)} recipes checked")
+          if bad:
+              print("\n".join(bad))
+              sys.exit(1)
+          PY
+
+      # Folders had plural names before Minecraft 1.21 and are ignored by the game now
+      - name: No old folder names
+        run: |
+          if { find BoxedDataPack/data -mindepth 2 -maxdepth 2 -type d \( -name advancements -o -name recipes \); find BoxedDataPack/data -mindepth 3 -maxdepth 3 -type d -path '*/tags/*' \( -name items -o -name blocks -o -name entity_types \); } | grep . ; then
+            echo "These folders use names the game no longer reads"; exit 1
+          fi

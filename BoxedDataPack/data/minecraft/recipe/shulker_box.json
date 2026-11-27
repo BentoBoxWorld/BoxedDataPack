@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "-",
+    "#",
+    "-"
+  ],
+  "key": {
+    "#": "#bentobox:chests_and_barrels",
+    "-": "minecraft:shulker_shell"
+  },
+  "result": {
+    "id": "minecraft:shulker_box"
+  }
+}

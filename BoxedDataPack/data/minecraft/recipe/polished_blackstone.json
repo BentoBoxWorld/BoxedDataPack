@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "polished_blackstone",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": "minecraft:blackstone"
+  },
+  "result": {
+    "id": "minecraft:polished_blackstone",
+    "count": 4
+  }
+}

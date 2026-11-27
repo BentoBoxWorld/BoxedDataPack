@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "carpet",
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "key": {
+    "#": "#minecraft:wool_carpets",
+    "$": "minecraft:green_dye"
+  },
+  "result": {
+    "id": "minecraft:green_carpet",
+    "count": 8
+  }
+}

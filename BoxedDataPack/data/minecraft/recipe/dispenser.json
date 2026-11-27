@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "dispenser",
+  "pattern": [
+    "###",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "#": "minecraft:cobblestone",
+    "X": "#bentobox:bows"
+  },
+  "result": {
+    "id": "minecraft:dispenser"
+  }
+}

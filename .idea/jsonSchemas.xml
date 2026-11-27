@@ -14,7 +14,7 @@
                 <list>
                   <Item>
                     <option name="pattern" value="true" />
-                    <option name="path" value="BoxedDataPack/data/*/advancements/**.json" />
+                    <option name="path" value="BoxedDataPack/data/*/advancement/**.json" />
                     <option name="mappingKind" value="Pattern" />
                   </Item>
                 </list>
@@ -33,7 +33,7 @@
                 <list>
                   <Item>
                     <option name="pattern" value="true" />
-                    <option name="path" value="BoxedDataPack/data/*/recipes/**.json" />
+                    <option name="path" value="BoxedDataPack/data/*/recipe/**.json" />
                     <option name="mappingKind" value="Pattern" />
                   </Item>
                 </list>

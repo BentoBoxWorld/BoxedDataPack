@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "polished_andesite",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": "minecraft:andesite"
+  },
+  "result": {
+    "id": "minecraft:polished_andesite",
+    "count": 4
+  }
+}

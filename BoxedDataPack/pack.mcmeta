@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 71,
-    "description": ""
+    "description": "Advancements, recipes and tags for the Boxed game mode",
+    "min_format": 121,
+    "max_format": 121
   }
 }

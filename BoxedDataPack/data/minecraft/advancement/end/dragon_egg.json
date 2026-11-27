@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:end/kill_dragon",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg"
+    },
+    "title": {
+      "translate": "advancements.end.dragon_egg.title"
+    },
+    "description": "Hold the dragon egg",
+    "frame": "goal"
+  },
+  "criteria": {
+    "dragon_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dragon_egg"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:husbandry/time_to_farm",
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "translate": "advancements.husbandry.plant_seed.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.plant_seed.description"
+    },
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "seeds": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": "#minecraft:villager_plantable_seeds"
+          }
+        }
+      }
+    }
+  }
+}

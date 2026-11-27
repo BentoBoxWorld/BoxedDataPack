@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": "minecraft:lime_wool",
+    "|": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:lime_banner",
+    "count": 3
+  }
+}

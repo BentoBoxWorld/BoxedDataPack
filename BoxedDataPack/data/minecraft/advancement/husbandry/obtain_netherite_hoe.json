@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_hoe"
+    },
+    "title": {
+      "translate": "advancements.husbandry.netherite_hoe.title"
+    },
+    "description": "Use a netherite ingot to upgrade a hoe then reevaluate your life choices",
+    "frame": "challenge"
+  },
+  "criteria": {
+    "netherite_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
